@@ -525,3 +525,45 @@ img {
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -50%) scale(1.5);
 }
+
+.modal-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #e7e9fc;
+  border-radius: 100%;
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.1);
+}
+
+.modal-close:hover,
+.modal-close:focus {
+  background-color: #404bbf;
+}
+
+.text-modal {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+}
